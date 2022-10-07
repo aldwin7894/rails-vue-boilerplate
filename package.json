@@ -1,0 +1,59 @@
+{
+  "name": "rails-vue-boilerplate",
+  "version": "1.0.0",
+  "author": "aldwin7894",
+  "license": "MIT",
+  "engines": {
+    "npm": ">= 8.16.0",
+    "node": "14.20.0",
+    "yarn": ">= 1.22"
+  },
+  "scripts": {
+    "rails:dev": ". ./.env.dev && bundle exec rails s -b 0.0.0.0",
+    "vite:dev": "./bin/vite dev --debug"
+  },
+  "browserslist": [
+    "defaults",
+    "chrome >= 87",
+    "firefox >= 78",
+    "safari >= 13",
+    "edge >= 88"
+  ],
+  "dependencies": {
+    "@quasar/extras": "^1.15.4",
+    "@quasar/vite-plugin": "^1.2.3",
+    "@rails/actioncable": "^7.0.4",
+    "@vitejs/plugin-vue": "^3.1.2",
+    "autoprefixer": "^10.4.12",
+    "axios": "^1.1.0",
+    "chart.js": "^3.9.1",
+    "cssnano": "^5.1.13",
+    "cssnano-preset-advanced": "^5.3.8",
+    "iconify-icon": "^1.0.0",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.4",
+    "postcss": "^8.4.17",
+    "postcss-flexbugs-fixes": "^5.0.2",
+    "postcss-import": "^15.0.0",
+    "postcss-preset-env": "^7.8.2",
+    "quasar": "^2.9.2",
+    "rollup-plugin-gzip": "^3.0.1",
+    "sass": "^1.55.0",
+    "vite": "^3.0.0",
+    "vite-plugin-full-reload": "^1.0.4",
+    "vite-plugin-ruby": "^3.1.0",
+    "vue": "^3.2.33",
+    "vue-axios": "^3.4.1",
+    "vue-i18n": "^9.1.9",
+    "vue-router": "^4.1",
+    "vuex": "^4.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^18.8.3",
+    "eslint": "^8.24.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-import-resolver-alias": "^1.1.2",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-vue": "^9.6.0"
+  }
+}
